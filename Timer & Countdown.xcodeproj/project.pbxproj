@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17CF90E9271CC6E3008C9D6C /* Timer___CountdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF90E8271CC6E3008C9D6C /* Timer___CountdownApp.swift */; };
+		17CF90EB271CC6E3008C9D6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF90EA271CC6E3008C9D6C /* ContentView.swift */; };
+		17CF90ED271CC6E5008C9D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CF90EC271CC6E5008C9D6C /* Assets.xcassets */; };
+		17CF90F0271CC6E5008C9D6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CF90EF271CC6E5008C9D6C /* Preview Assets.xcassets */; };
+		17CF90FB271CC6E6008C9D6C /* Timer___CountdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF90FA271CC6E6008C9D6C /* Timer___CountdownTests.swift */; };
+		17CF9106271CC6E6008C9D6C /* Timer___CountdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CF9105271CC6E6008C9D6C /* Timer___CountdownUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17CF90F7271CC6E6008C9D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17CF90DD271CC6E3008C9D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17CF90E4271CC6E3008C9D6C;
+			remoteInfo = "Timer & Countdown";
+		};
+		17CF9102271CC6E6008C9D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17CF90DD271CC6E3008C9D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17CF90E4271CC6E3008C9D6C;
+			remoteInfo = "Timer & Countdown";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17CF90E5271CC6E3008C9D6C /* Timer & Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer & Countdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CF90E8271CC6E3008C9D6C /* Timer___CountdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer___CountdownApp.swift"; sourceTree = "<group>"; };
+		17CF90EA271CC6E3008C9D6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17CF90EC271CC6E5008C9D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17CF90EF271CC6E5008C9D6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17CF90F1271CC6E5008C9D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CF90F6271CC6E6008C9D6C /* Timer & CountdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer & CountdownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CF90FA271CC6E6008C9D6C /* Timer___CountdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer___CountdownTests.swift"; sourceTree = "<group>"; };
+		17CF90FC271CC6E6008C9D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CF9101271CC6E6008C9D6C /* Timer & CountdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer & CountdownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17CF9105271CC6E6008C9D6C /* Timer___CountdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer___CountdownUITests.swift"; sourceTree = "<group>"; };
+		17CF9107271CC6E6008C9D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17CF90E2271CC6E3008C9D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CF90F3271CC6E6008C9D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CF90FE271CC6E6008C9D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17CF90DC271CC6E3008C9D6C = {
+			isa = PBXGroup;
+			children = (
+				17CF90E7271CC6E3008C9D6C /* Timer & Countdown */,
+				17CF90F9271CC6E6008C9D6C /* Timer & CountdownTests */,
+				17CF9104271CC6E6008C9D6C /* Timer & CountdownUITests */,
+				17CF90E6271CC6E3008C9D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17CF90E6271CC6E3008C9D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17CF90E5271CC6E3008C9D6C /* Timer & Countdown.app */,
+				17CF90F6271CC6E6008C9D6C /* Timer & CountdownTests.xctest */,
+				17CF9101271CC6E6008C9D6C /* Timer & CountdownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17CF90E7271CC6E3008C9D6C /* Timer & Countdown */ = {
+			isa = PBXGroup;
+			children = (
+				17CF90E8271CC6E3008C9D6C /* Timer___CountdownApp.swift */,
+				17CF90EA271CC6E3008C9D6C /* ContentView.swift */,
+				17CF90EC271CC6E5008C9D6C /* Assets.xcassets */,
+				17CF90F1271CC6E5008C9D6C /* Info.plist */,
+				17CF90EE271CC6E5008C9D6C /* Preview Content */,
+			);
+			path = "Timer & Countdown";
+			sourceTree = "<group>";
+		};
+		17CF90EE271CC6E5008C9D6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17CF90EF271CC6E5008C9D6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17CF90F9271CC6E6008C9D6C /* Timer & CountdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				17CF90FA271CC6E6008C9D6C /* Timer___CountdownTests.swift */,
+				17CF90FC271CC6E6008C9D6C /* Info.plist */,
+			);
+			path = "Timer & CountdownTests";
+			sourceTree = "<group>";
+		};
+		17CF9104271CC6E6008C9D6C /* Timer & CountdownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17CF9105271CC6E6008C9D6C /* Timer___CountdownUITests.swift */,
+				17CF9107271CC6E6008C9D6C /* Info.plist */,
+			);
+			path = "Timer & CountdownUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17CF90E4271CC6E3008C9D6C /* Timer & Countdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17CF910A271CC6E6008C9D6C /* Build configuration list for PBXNativeTarget "Timer & Countdown" */;
+			buildPhases = (
+				17CF90E1271CC6E3008C9D6C /* Sources */,
+				17CF90E2271CC6E3008C9D6C /* Frameworks */,
+				17CF90E3271CC6E3008C9D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timer & Countdown";
+			productName = "Timer & Countdown";
+			productReference = 17CF90E5271CC6E3008C9D6C /* Timer & Countdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17CF90F5271CC6E6008C9D6C /* Timer & CountdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17CF910D271CC6E6008C9D6C /* Build configuration list for PBXNativeTarget "Timer & CountdownTests" */;
+			buildPhases = (
+				17CF90F2271CC6E6008C9D6C /* Sources */,
+				17CF90F3271CC6E6008C9D6C /* Frameworks */,
+				17CF90F4271CC6E6008C9D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17CF90F8271CC6E6008C9D6C /* PBXTargetDependency */,
+			);
+			name = "Timer & CountdownTests";
+			productName = "Timer & CountdownTests";
+			productReference = 17CF90F6271CC6E6008C9D6C /* Timer & CountdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17CF9100271CC6E6008C9D6C /* Timer & CountdownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17CF9110271CC6E6008C9D6C /* Build configuration list for PBXNativeTarget "Timer & CountdownUITests" */;
+			buildPhases = (
+				17CF90FD271CC6E6008C9D6C /* Sources */,
+				17CF90FE271CC6E6008C9D6C /* Frameworks */,
+				17CF90FF271CC6E6008C9D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17CF9103271CC6E6008C9D6C /* PBXTargetDependency */,
+			);
+			name = "Timer & CountdownUITests";
+			productName = "Timer & CountdownUITests";
+			productReference = 17CF9101271CC6E6008C9D6C /* Timer & CountdownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17CF90DD271CC6E3008C9D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					17CF90E4271CC6E3008C9D6C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					17CF90F5271CC6E6008C9D6C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 17CF90E4271CC6E3008C9D6C;
+					};
+					17CF9100271CC6E6008C9D6C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 17CF90E4271CC6E3008C9D6C;
+					};
+				};
+			};
+			buildConfigurationList = 17CF90E0271CC6E3008C9D6C /* Build configuration list for PBXProject "Timer & Countdown" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17CF90DC271CC6E3008C9D6C;
+			productRefGroup = 17CF90E6271CC6E3008C9D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17CF90E4271CC6E3008C9D6C /* Timer & Countdown */,
+				17CF90F5271CC6E6008C9D6C /* Timer & CountdownTests */,
+				17CF9100271CC6E6008C9D6C /* Timer & CountdownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17CF90E3271CC6E3008C9D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CF90F0271CC6E5008C9D6C /* Preview Assets.xcassets in Resources */,
+				17CF90ED271CC6E5008C9D6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CF90F4271CC6E6008C9D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CF90FF271CC6E6008C9D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17CF90E1271CC6E3008C9D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CF90EB271CC6E3008C9D6C /* ContentView.swift in Sources */,
+				17CF90E9271CC6E3008C9D6C /* Timer___CountdownApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CF90F2271CC6E6008C9D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CF90FB271CC6E6008C9D6C /* Timer___CountdownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17CF90FD271CC6E6008C9D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17CF9106271CC6E6008C9D6C /* Timer___CountdownUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17CF90F8271CC6E6008C9D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17CF90E4271CC6E3008C9D6C /* Timer & Countdown */;
+			targetProxy = 17CF90F7271CC6E6008C9D6C /* PBXContainerItemProxy */;
+		};
+		17CF9103271CC6E6008C9D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17CF90E4271CC6E3008C9D6C /* Timer & Countdown */;
+			targetProxy = 17CF9102271CC6E6008C9D6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17CF9108271CC6E6008C9D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17CF9109271CC6E6008C9D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17CF910B271CC6E6008C9D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Timer & Countdown/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Timer & Countdown/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meghg.Timer---Countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17CF910C271CC6E6008C9D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Timer & Countdown/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Timer & Countdown/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meghg.Timer---Countdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17CF910E271CC6E6008C9D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Timer & CountdownTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meghg.Timer---CountdownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer & Countdown.app/Timer & Countdown";
+			};
+			name = Debug;
+		};
+		17CF910F271CC6E6008C9D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Timer & CountdownTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meghg.Timer---CountdownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timer & Countdown.app/Timer & Countdown";
+			};
+			name = Release;
+		};
+		17CF9111271CC6E6008C9D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Timer & CountdownUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meghg.Timer---CountdownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Timer & Countdown";
+			};
+			name = Debug;
+		};
+		17CF9112271CC6E6008C9D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Timer & CountdownUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.meghg.Timer---CountdownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Timer & Countdown";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17CF90E0271CC6E3008C9D6C /* Build configuration list for PBXProject "Timer & Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CF9108271CC6E6008C9D6C /* Debug */,
+				17CF9109271CC6E6008C9D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17CF910A271CC6E6008C9D6C /* Build configuration list for PBXNativeTarget "Timer & Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CF910B271CC6E6008C9D6C /* Debug */,
+				17CF910C271CC6E6008C9D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17CF910D271CC6E6008C9D6C /* Build configuration list for PBXNativeTarget "Timer & CountdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CF910E271CC6E6008C9D6C /* Debug */,
+				17CF910F271CC6E6008C9D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17CF9110271CC6E6008C9D6C /* Build configuration list for PBXNativeTarget "Timer & CountdownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17CF9111271CC6E6008C9D6C /* Debug */,
+				17CF9112271CC6E6008C9D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17CF90DD271CC6E3008C9D6C /* Project object */;
+}
